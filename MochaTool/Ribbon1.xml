@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="MochaTool" label="摩卡工具">
+        <group id="groupPdf" label="PDF">
+          <button id="pdf2img" label="PDF导出成图片"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
