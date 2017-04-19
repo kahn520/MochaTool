@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
+using Microsoft.Office.Tools.Ribbon;
 using Office = Microsoft.Office.Core;
 
 // TODO:   按照以下步骤启用功能区(XML)项: 
@@ -52,6 +53,13 @@ namespace MochaTool
         public void Ribbon_Load(Office.IRibbonUI ribbonUI)
         {
             this.ribbon = ribbonUI;
+        }
+
+        public void OnPdfExportAction(Office.IRibbonControl control)
+        {
+            string a = System.AppDomain.CurrentDomain.BaseDirectory;
+            Pdf2Image.FrmMain frmMain = new Pdf2Image.FrmMain();
+            frmMain.Show();
         }
 
         #endregion

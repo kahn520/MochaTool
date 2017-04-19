@@ -37,9 +37,9 @@
             // lblMsg
             // 
             this.lblMsg.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblMsg.Location = new System.Drawing.Point(13, 81);
+            this.lblMsg.Location = new System.Drawing.Point(13, 95);
             this.lblMsg.Name = "lblMsg";
-            this.lblMsg.Size = new System.Drawing.Size(346, 64);
+            this.lblMsg.Size = new System.Drawing.Size(346, 50);
             this.lblMsg.TabIndex = 1;
             // 
             // btnOK

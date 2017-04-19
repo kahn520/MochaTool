@@ -11,7 +11,7 @@ namespace CommonControl
 {
     public partial class ControlFileDialog : UserControl
     {
-        private string strFilter = "*.*";
+        private string strFilter = "所有文件|*.*";
         public ControlFileDialog()
         {
             InitializeComponent();

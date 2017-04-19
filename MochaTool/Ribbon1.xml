@@ -4,7 +4,7 @@
     <tabs>
       <tab id="MochaTool" label="摩卡工具">
         <group id="groupPdf" label="PDF">
-          <button id="pdf2img" label="PDF导出成图片"/>
+          <button id="pdf2img" label="PDF导出成图片" onAction="OnPdfExportAction"/>
         </group>
       </tab>
     </tabs>
