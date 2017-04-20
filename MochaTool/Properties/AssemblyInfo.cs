@@ -6,12 +6,12 @@ using System.Security;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("MochaTool")]
+[assembly: AssemblyTitle("摩卡工具集")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MochaTool")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("摩卡工具集")]
+[assembly: AssemblyCopyright("摩卡工作室")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
